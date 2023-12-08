@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'thinCool';
+    src: url(../fonts/thin_cool/Thin\ Cool.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Serling';
+    src: url(../fonts/SerlingGalleria.otf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SerlingBold';
+    src: url(../fonts/SerlingGalleriaBold.otf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SerlingItalic';
+    src: url(../fonts/SerlingGalleriaItalic.otf) format('truetype');
+    font-style: normal;
+}

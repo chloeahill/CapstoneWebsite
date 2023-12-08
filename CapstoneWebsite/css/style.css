@@ -1,0 +1,351 @@
+/* screen change styling */
+@media only screen and (max-width:800px) {
+    #my-image {
+        position: absolute;
+        margin-top: 20em;
+        z-index: -1;
+    }
+
+    #text {
+        position: absolute;
+        margin-top: 68em;
+        padding-bottom: 40px;
+    }
+
+    #text-c {
+        position: absolute;
+        margin-top: 68em;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .homeBack-button a {
+        visibility: hidden;
+    }
+}
+
+/* general formatting */
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Serling';
+    font-style: bold;
+    font-size: 70px;
+    text-align: center;
+    color: #3279a6;
+    letter-spacing: 6px;
+}
+
+h2 {
+    font-family: 'thinCool';
+    font-style: thin;
+    font-size: 50px;
+    color: whitesmoke;
+    letter-spacing: 10px;
+}
+
+h3 {
+    font-family: 'Garmond';
+    font-style: normal;
+    font-size: 20px;
+    color: #2C2C2C;
+    text-align: center;
+    margin-bottom: .05px;
+}
+
+h6 {
+    font-family: 'Serling';
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #3279a6;
+}
+
+p {
+    color: #2C2C2C;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a:link {
+    color: #2C2C2C;
+}
+
+a:visited {
+    color: #2C2C2C;
+}
+
+a:hover {
+    color: #89a841;
+}
+
+/* boarder formatting */
+.background-left {
+    display: flex;
+    z-index: -1;
+}
+
+.background-right {
+    display: flex;
+    z-index: -1;
+}
+
+/* banner formatting */
+#about-me {
+    background-color: #79a3b8;
+    border: 1px solid #79a3b8;
+}
+
+#audioline {
+    background-color: #79a3b8;
+    border: 1px solid #79a3b8;
+}
+
+#videoline {
+    background-color: #79a3b8;
+    border: 1px solid #79a3b8;
+}
+
+#photoline {
+    background-color: #79a3b8;
+    border: 1px solid #79a3b8;
+}
+
+#illline {
+    background-color: #79a3b8;
+    border: 1px solid #79a3b8;
+}
+
+#stratline {
+    background-color: #79a3b8;
+    border: 1px solid #79a3b8;
+}
+
+#contactline {
+    background-color: #79a3b8;
+    border: 1px solid #79a3b8;
+}
+
+/* banner hovering */
+#about-me:hover {
+    letter-spacing: .39em;
+}
+
+#photoline:hover {
+    letter-spacing: .39em;
+}
+
+#illline:hover {
+    letter-spacing: .39em;
+}
+
+#audioline:hover {
+    letter-spacing: .39em;
+}
+
+#videoline:hover {
+    letter-spacing: .39em;
+}
+
+#stratline:hover {
+    letter-spacing: .39em;
+}
+
+#contactline:hover {
+    letter-spacing: .39em;
+}
+
+/* contact formatting */
+.contact {
+    display: inline-block;
+    text-align: center;
+    color:#3279a6;
+}
+
+/* homepage formating */
+.text-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#my-image {
+    display: inline-block;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#text {
+    float: left;
+    text-align: left;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+#text-c {
+    float: left;
+    text-align: left;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+/* back button formating */
+.back-button a {
+    text-decoration: none;
+    font-family: 'VanillaRavioli';
+    font-size: 20px;
+    color: #3279a6;
+}
+
+.back-button a:hover {
+    color: #79a3b8;
+}
+
+.back-button {
+    text-align: center;
+    color: #79a3b8;
+}
+
+.homeBack-button a {
+    text-decoration: none;
+    font-family: 'VanillaRavioli';
+    font-size: 20px;
+    color: #3279a6;
+}
+
+/*header formating*/
+header {
+    position: fixed;
+    background-color: whitesmoke;
+    font-family: 'Serling';
+    width: 99%;
+    height: 5.25em;
+    top: -7px;
+    border: 5px;
+}
+
+.dropdown-item {
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+
+#home-button {
+    float: left;
+    margin: .25em;
+    padding: 0em .5em;
+    text-align: center;
+    font-size: 30px;
+}
+
+#works-button {
+    float: right;
+    margin: .2em;
+    padding: 0.7em .5em;
+    text-align: center;
+    font-size: 18px;
+}
+
+#contact-button {
+    float: right;
+    margin: .2em;
+    padding: 0.7em 1em;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*link styling*/
+#home-button a {
+    text-decoration: none;
+    color: #3279a6;
+    letter-spacing: .25em;
+}
+
+#works-button a {
+    text-decoration: none;
+    color: #3279a6;
+    background-color: whitesmoke;
+    letter-spacing: .15em;
+}
+
+#contact-button a {
+    text-decoration: none;
+    color: #3279a6;
+    letter-spacing: .15em;
+}
+
+/*dropdown styling*/
+.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+    margin-top: .25em;
+}
+
+.dropdown-item {
+    display: block;
+    float: center;
+    border: 0em;
+    text-align: center;
+    margin-left: -3.75em;
+    padding: 0.5em .5em 0.5em .5em;
+    min-width: 3.5em;
+}
+
+/* hover styling */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover {
+    border-radius: 1%;
+}
+
+#home-button a:hover {
+    color: #89a841;
+    letter-spacing: .35em;
+}
+
+#works-button a:hover {
+    color: #e66d39;
+}
+
+#contact-button a:hover {
+    color: #f2ab27;
+}
+
+/* bio formatting */
+.bioBox {
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+.bioImage {
+    display: block;
+    align-content: center;
+}
+
+/* boarder formatting */
+
