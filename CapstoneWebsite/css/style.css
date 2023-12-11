@@ -2,20 +2,31 @@
 @media only screen and (max-width:800px) {
     #my-image {
         position: absolute;
+        margin-top: 18em;
+        z-index: -1;
+    }
+
+    #my-image-c {
+        position: absolute;
         margin-top: 20em;
         z-index: -1;
     }
 
     #text {
         position: absolute;
-        margin-top: 68em;
+        margin-top: 74em;
         padding-bottom: 40px;
     }
 
     #text-c {
         position: absolute;
-        margin-top: 68em;
+        margin-top: 72em;
         padding-bottom: 40px;
+    }
+
+    p {
+        background-color: whitesmoke;
+        border-width: 50em;
     }
 
 }
@@ -68,8 +79,8 @@ h6 {
 p {
     color: #2C2C2C;
     display: inline-block;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 a:link {
@@ -198,7 +209,7 @@ a:hover {
     text-align: left;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    max-width: 400px;
+    max-width: 500px;
     min-width: 200px;
 }
 
@@ -346,6 +357,4 @@ header {
     display: block;
     align-content: center;
 }
-
-/* boarder formatting */
 
